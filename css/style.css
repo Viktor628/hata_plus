@@ -182,37 +182,8 @@ sup {
     color: #e71029;
 }
 
-.house {
-    display: block;
-    padding: 50px 0 50px 0;
-}
-
-.house-stile {
-    display: flex;
-    cursor: pointer;
-}
-
-.house-stile p {
-    margin: 0;
-}
-
-.house-stile h3 {
-    margin: 0;
-}
-
-.house-stile h3:hover {
-    color: #fd8300;
-}
-
-.montre {
-    margin-left: 15px;
-}
-
-.galga {
-    margin-left: 15px;
-}
-
 .house h2 {
+    padding-top: 40px;
     font-size: 24px;
     line-height: 24px;
     color: #24242b;
@@ -220,14 +191,37 @@ sup {
     font-family: "Roboto Slab";
 }
 
-.house h3 {
+.house-stile {
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.house figure {
+    margin: 0;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.house figcaption p {
+    margin: 0;
+}
+
+.house figcaption h3 {
+    margin: 0;
+}
+
+.house figcaption h3:hover {
+    color: #fd8300;
+}
+
+.house figcaption h3 {
     font-size: 14px;
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
 }
 
-.house p {
+.house figcaption p {
     font-size: 13px;
     color: #9999a6;
 }
