@@ -1,0 +1,149 @@
+.contact-style {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h2::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: -30%;
+    width: 159%;
+    height: 1px;
+    background-color: #e4e4ec;
+}
+
+.contact-style h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    height: 25px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.contact-style h4 {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666;
+    font-family: "Arial";
+}
+
+.contact-style li {
+    list-style: none;
+}
+
+.contact-style a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";    
+}
+
+.consultation h4 {
+    margin: 5px 0;
+}
+
+.details {
+    width: 29%;
+}
+
+.contact-style a:hover {
+    color: #fd8300;
+}
+
+.office li:last-child {
+    text-decoration: underline;
+}
+
+.office li:last-child a {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.feedback {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e4e4ec;
+}
+
+.feedback-style {
+    width: 470px;
+}
+
+.feedback-style h3 {
+    margin: 0;
+    height: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.name-style,
+.name-tel {
+    width: 220px;
+    height: 35px;
+}
+
+.topic-style {
+    width: 98%;
+    height: 35px;
+}
+
+.name-tel {
+    margin-left: 10px;
+}
+
+.maps {
+    overflow: hidden;
+    width: 49%;
+}
+
+iframe {
+    margin-top: -46px;
+    width: 100%;
+    height: 345px;
+    border: none;
+}
+
+.feedback-style textarea {
+    padding: 5px;
+    max-width: 459px;
+    max-height: 80px;
+}
+
+.g-button {
+    padding: 13px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    border-radius: 21px;
+    background-color: #fd8300;
+}
+
+.g-button:hover {
+    color: #ff1600;
+    cursor: pointer;
+}
+
+input.square {
+    margin-left: 30px;
+}
+
+.feedback-style label {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666;
+    font-family: "Arial";
+}
